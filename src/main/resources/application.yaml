@@ -1,9 +1,9 @@
 
 server:
-  port: 8081
+  port: 8088
 spring:  
   datasource:
-    url: jdbc:postgresql://localhost:5432/learning  
+    url: jdbc:postgresql://localhost:5433/learning  
     username: postgres  
     password: root  
     driver-class-name: org.postgresql.Driver
@@ -24,7 +24,7 @@ spring:
       properties:
         spring.json.trusted.packages: "*"
     producer:
-      bootstrap-servers: kafka:9092  
+      bootstrap-servers: 20.42.58.254:9092  
       
 
   logging:
